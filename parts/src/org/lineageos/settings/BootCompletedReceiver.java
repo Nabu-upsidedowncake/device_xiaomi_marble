@@ -16,6 +16,7 @@ import android.util.Log;
 import org.lineageos.settings.camera.NfcCameraService;
 import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -32,5 +33,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // NFC
         NfcCameraService.startService(context);
+
+        // Per app refresh rate
+        RefreshUtils.startService(context);
     }
 }
