@@ -18,7 +18,7 @@ persist.audio.fluence.speaker=true
 
 # Camera
 persist.vendor.camera.privapp.list=org.lineageos.aperture.org.codeaurora.snapcam,com.android.camera,com.google.camera
-vendor.camera.aux.packagelist=org.lineageos.aperture,org.codeaurora.snapcam,com.android.camera,com.google.camera
+persist.vendor.camera.expose.aux=1
 
 # DPM
 persist.vendor.dpm.feature=11
