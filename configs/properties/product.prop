@@ -8,6 +8,9 @@ media.stagefright.audio.deep=false
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Radio
 persist.vendor.radio.hidl_dev_service=true
 ro.vendor.radio.5g=3
