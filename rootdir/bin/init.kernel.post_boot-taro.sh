@@ -87,9 +87,9 @@ echo 325 > /proc/sys/walt/walt_low_latency_task_threshold
 
 # cpuset parameters
 echo 0-2 > /dev/cpuset/background/cpus
+echo 0-6 > /dev/cpuset/foreground/cpus
 echo 0-3 > /dev/cpuset/system-background/cpus
 echo 4-7 > /dev/cpuset/foreground/boost/cpus
-echo 0-2,4-7 > /dev/cpuset/foreground/cpus
 echo 0-7 > /dev/cpuset/top-app/cpus
 
 # Turn off scheduler boost at the end
