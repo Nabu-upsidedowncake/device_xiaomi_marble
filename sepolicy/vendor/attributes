@@ -7,3 +7,8 @@ attribute hal_dms_server;
 attribute hal_mlipay;
 attribute hal_mlipay_client;
 attribute hal_mlipay_server;
+
+# citsensorservice
+attribute vendor_hal_citsensorservice_xiaomi;
+attribute vendor_hal_citsensorservice_xiaomi_client;
+attribute vendor_hal_citsensorservice_xiaomi_server;

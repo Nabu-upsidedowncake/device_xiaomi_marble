@@ -28,3 +28,6 @@ vendor.xiaomi.hw.touchfeature::ITouchFeature                 u:object_r:hal_touc
 android.frameworks.sensorservice::ISensorManager             u:object_r:fwk_sensor_hwservice:s0
 vendor.xiaomi.sensor.citsensorservice::ICitSensorService     u:object_r:vendor_hal_citsensorservice_xiaomi_hwservice:s0
 vendor.xiaomi.sensor.communicate::ISensorCommunicate         u:object_r:vendor_hal_sensorcommunicate_hwservice:s0
+
+# Sensors
+vendor.xiaomi.hardware.citsensorservice::ICitSensorService                    u:object_r:vendor_hal_citsensorservice_xiaomi_hwservice:s0
