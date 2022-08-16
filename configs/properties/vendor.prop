@@ -272,7 +272,7 @@ persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=0
 persist.sys.sf.native_mode=258
 debug.sf.hw=0
-debug.egl.hw=0
+debug.sdm.support_writeback=0
 debug.sf.auto_latch_unsignaled=true
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
@@ -343,7 +343,6 @@ persist.sys.lmkd.extend_reclaim.enable=true
 
 # Media
 debug.c2.use_dmabufheaps=1
-debug.mdpcomp.logs=0
 debug.stagefright.omx_default_rank=0
 debug.stagefright.c2inputsurface=-1
 debug.stagefright.ccodec=4
