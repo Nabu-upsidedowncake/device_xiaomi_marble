@@ -2,3 +2,6 @@ set_prop(vendor_init, vendor_displayfeature_prop)
 set_prop(vendor_init, vendor_fp_prop)
 set_prop(vendor_init, vendor_ssr_prop)
 set_prop(vendor_init, vendor_thermal_prop)
+
+allow vendor_init qti_debugfs:dir rw_dir_perms;
+allow vendor_init qti_debugfs:file rw_file_perms;

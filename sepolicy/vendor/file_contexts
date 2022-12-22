@@ -51,6 +51,9 @@
 /vendor/lib(64)?/rfsa/adsp/libsnpe_htp_v66_skel\.so                       u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/rfsa/adsp/libsnpe_htp_v68_skel\.so                       u:object_r:same_process_hal_file:s0
 
+# Debugfs
+/sys/kernel/debug/(/.*)?                                                                                u:object_r:qti_debugfs:s0
+
 # Diag
 /data/vendor/modem(/.*)?                                                  u:object_r:vendor_modem_data_file:s0
 

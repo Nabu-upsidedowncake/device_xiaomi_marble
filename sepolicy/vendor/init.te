@@ -16,3 +16,5 @@ set_prop(vendor_init, vendor_displayfeature_prop)
 
 allow init debugfs_tracing_debug:dir mounton;
 allow vendor_init device:chr_file getattr;
+allow init qti_debugfs:dir rw_dir_perms;
+allow init qti_debugfs:file rw_file_perms;
