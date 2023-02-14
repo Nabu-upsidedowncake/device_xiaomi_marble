@@ -4,8 +4,6 @@ aaudio.mmap_exclusive_policy=2
 aaudio.hw_burst_min_usec=2000
 af.fast_track_multiplier=1
 ro.audio.flinger_standbytime_ms=2000
-vendor.audio_hal.period_size=192
-vendor.audio.ull_record_period_multiplier=2
 persist.vendor.audio.ambisonic.capture=false
 persist.vendor.audio.ambisonic.auto.profile=false
 persist.vendor.audio.apptype.multirec.enabled=false
@@ -38,8 +36,6 @@ vendor.audio.use.sw.mpegh.decoder=true
 vendor.audio.hw.aac.encoder=false
 ro.af.client_heap_size_kbyte=7168
 vendor.audio_hal.in_period_size=144
-vendor.audio_hal.period_multiplier=3
-vendor.audio.adm.buffering.ms=2
 vendor.audio.volume.headset.gain.depcal=true
 vendor.audio.c2.preferred=true
 debug.c2.use_dmabufheaps=1
@@ -154,6 +150,21 @@ vendor.audio.feature.wsa.enable=false
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=true
 vendor.audio.feature.dmabuf.cma.memory.enable=true
+
+# Audio (Misc)
+audio.safemedia.bypass=true
+vendor.audio.usb.period=2500
+vendor.audio.usb.out.period_us=2500
+vendor.audio.usb.out.period_count=2
+vendor.audio_hal.period_size=120
+vendor.audio_hal.period_multiplier=1
+vendor.audio.adm.buffering.ms=2
+persist.bluetooth.sbc_hd_higher_bitrate=1
+af.resampler.quality=7
+ro.audio.resampler.psd.enable_at_samplerate=44100
+ro.audio.resampler.psd.stopband=179
+ro.audio.resampler.psd.halflength=408
+ro.audio.resampler.psd.tbwcheat=99
 
 # Bluetooth
 bluetooth.hardware.power.idle_cur_ma=6
