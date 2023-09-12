@@ -361,6 +361,7 @@ ro.vendor.perf-hal.ver=2.3
 ro.vendor.perf.scroll_opt=true
 vendor.power.pasr.enabled=false
 vendor.pasr.activemode.enabled=false
+vendor.perf.framepacing.enable=1
 
 # QFP
 persist.vendor.qfp=true
