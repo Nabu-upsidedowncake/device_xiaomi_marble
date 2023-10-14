@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_marble.mk
+    $(LOCAL_DIR)/awaken_marble.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_marble-eng \
-    derp_marble-userdebug \
-    derp_marble-user
+    awaken_marble-eng \
+    awaken_marble-userdebug \
+    awaken_marble-user
