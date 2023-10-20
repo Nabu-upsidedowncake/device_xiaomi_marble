@@ -30,7 +30,7 @@ import org.lineageos.settings.refreshrate.RefreshUtils;
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "XiaomiParts";
+    private static final String TAG = "XiaomiParts-BCR";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -38,8 +38,10 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         ThermalUtils.startService(context);
 
+        Log.i(TAG, "Boot completed");
+
         // Dolby Atmos
-        DolbyUtils.getInstance(context).onBootCompleted();
+        DolbyUtils.getInstance(context);
 
         // Doze
         DozeUtils.checkDozeService(context);
