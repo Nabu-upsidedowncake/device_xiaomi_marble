@@ -45,6 +45,16 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.xiaomi.hardware.citsensorservice</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ICitSensorService</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.0::ICitSensorService/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.xiaomi.hardware.fx.tunnel</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
