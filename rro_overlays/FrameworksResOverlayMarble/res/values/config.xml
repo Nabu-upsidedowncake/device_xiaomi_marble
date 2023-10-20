@@ -36,10 +36,10 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
 
     <!-- Fast brightness animation ramp rate in brightness units per second -->
-    <integer translatable="false" name="config_brightness_ramp_rate_fast">4932</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_fast">307</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second -->
-    <integer translatable="false" name="config_brightness_ramp_rate_slow">3946</integer>
+    <integer translatable="false" name="config_brightness_ramp_rate_slow">246</integer>
 
 
     <!-- The maximum range of gamma adjustment possible using the screen
