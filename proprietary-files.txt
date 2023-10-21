@@ -2243,6 +2243,10 @@ vendor/lib/libpowercore.so
 vendor/lib64/libpowercallback.so
 vendor/lib64/libpowercore.so
 
+# Protobuf-cpp-lite
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # Psiclient
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
