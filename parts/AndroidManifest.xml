@@ -56,7 +56,7 @@
                 android:value="1" />
         </activity>
 
-        <activity
+        <!--activity
             android:name=".dolby.DolbyActivity"
             android:exported="true"
             android:label="@string/dolby_title"
@@ -85,6 +85,6 @@
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
-        </service>
+        </service-->
     </application>
 </manifest>
