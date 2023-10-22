@@ -2159,6 +2159,7 @@ vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/targetsysnodesconfigs.xml
 vendor/etc/perf/thermal-boost.conf
+vendor/etc/perf/thermalbreakboostconfig.xml
 vendor/etc/seccomp_policy/qapeservice.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
 vendor/lib/libperfconfig.so
