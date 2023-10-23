@@ -250,13 +250,6 @@ ro.sf.force_hwc_brightness=1
 persist.vendor.dc_backlight.enable=false
 persist.vendor.dc_backlight.threshold=0
 
-# Dolby Music
-ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1
-
-# Dolby Vision
-ro.vendor.audio.dolby.vision.support=true
-debug.config.media.video.dolby_vision_suports=true
-
 # DPM
 persist.vendor.dpm.vndr.idletimer.mode=default
 persist.vendor.dpm.vndr.halservice.enable=1
@@ -278,7 +271,6 @@ vendor.gatekeeper.disable_spu=true
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=0
 persist.sys.sf.native_mode=258
-debug.cpurend.vsync=false
 debug.sf.hw=0
 debug.egl.hw=0
 debug.sf.auto_latch_unsignaled=true
@@ -343,9 +335,6 @@ sys.haptic.intensityforkeyboard=true
 # Incremental
 ro.incremental.enable=yes
 
-# HWUI
-ro.hwui.render_ahead=10
-
 # LMK
 persist.sys.lmk.camera_minfree_levels=18432:0,23040:100,27648:200,64512:300,115712:800,216370:900
 persist.sys.lmkd.double_watermark.enable=true
@@ -376,8 +365,6 @@ ro.vendor.se.chip.model=SN110T
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.3
-ro.vendor.perf.scroll_opt=1
-ro.vendor.perf.scroll_opt.heavy_app=2
 vendor.power.pasr.enabled=false
 vendor.pasr.activemode.enabled=false
 
@@ -426,15 +413,6 @@ persist.vendor.vcb.enable=false
 ro.vendor.net.enable_dual_wifi=1
 ro.vendor.net.enable_passpoint_r1=1
 wifi.aware.interface=wifi-aware0
-
-# Fling
-ro.min.fling_velocity=160 
-ro.max.fling_velocity=20000
-ro.max.fling_velocity=20000 
-ro.vendor.qti.cgroup_follow.enable=true 
-persist.vendor.qti.inputopts.enable=true 
-persist.vendor.qti.inputopts.movetouchslop=0.6 
-ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
 # Zygote
 zygote.critical_window.minute=10
