@@ -32,20 +32,6 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
-# LMK properties
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=50
-ro.lmk.use_new_strategy=true
-ro.lmk.enable_watermark_check=true
-ro.lmk.enable_userspace_lmk=true
-ro.lmk.enhance_batch_kill=false
-ro.lmk.super_critical=701
-ro.lmk.filecache_min_kb=153600
-ro.lmk.stall_limit_critical=40
-ro.lmk.psi_scrit_complete_stall_ms=150
-ro.lmk.direct_reclaim_pressure=45
-ro.lmk.reclaim_scan_threshold=0
-
 # Radio VoNR Calling
 persist.radio.is_vonr_enabled_0=true
 persist.radio.is_vonr_enabled_1=true
