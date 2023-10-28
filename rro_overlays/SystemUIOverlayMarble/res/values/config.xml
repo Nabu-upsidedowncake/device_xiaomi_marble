@@ -26,4 +26,8 @@
     -->
     <string name="config_rounded_mask" translatable="false">M8,0C3.6,0,0,3.6,0,8</string>
 
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
 </resources>
