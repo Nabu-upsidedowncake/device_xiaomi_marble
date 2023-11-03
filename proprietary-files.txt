@@ -207,8 +207,8 @@ vendor/lib64/libbatterylistener.so
 vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
 vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libfmpal.so
 vendor/lib64/libdlbdsservice.so
+vendor/lib64/libfmpal.so
 vendor/lib64/libkaraokepal.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
@@ -224,9 +224,6 @@ vendor/lib64/libxlog_vendor.so
 vendor/lib/soundfx/libqcbassboost.so|75266de6e9d0eeca3cc40451e144889f21e733f9
 vendor/lib/soundfx/libqcreverb.so|74ab2e295efc544d078378c6f73280d454901707
 vendor/lib/soundfx/libqcvirt.so|2d4f333804fb8a9b2b2d748473f9c531accbb399
-vendor/lib64/soundfx/libqcbassboost.so|708756550c0fbf42c0e96fba2f82588d69d26624
-vendor/lib64/soundfx/libqcreverb.so|b05c0ce2831aeb777a4b498408b32c63d81e797a
-vendor/lib64/soundfx/libqcvirt.so|69a2e48c588a3cc388cec47033c629858b64b470
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libbundlewrapper.so
@@ -236,9 +233,12 @@ vendor/lib64/soundfx/libeffectproxy.so
 vendor/lib64/soundfx/libhapticgenerator.so
 vendor/lib64/soundfx/libldnhncr.so
 vendor/lib64/soundfx/libmisoundfx.so
+vendor/lib64/soundfx/libqcbassboost.so|708756550c0fbf42c0e96fba2f82588d69d26624
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/soundfx/libqcreverb.so|b05c0ce2831aeb777a4b498408b32c63d81e797a
+vendor/lib64/soundfx/libqcvirt.so|69a2e48c588a3cc388cec47033c629858b64b470
 vendor/lib64/soundfx/libreverbwrapper.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
@@ -1522,6 +1522,10 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 
+# Display (SDM) - from Pong qssi-user 14 UP1A.231005.007 2310072102 release-keys
+vendor/lib/libsdedrm.so|932f321d4168e4fb91b449899ff1544710bf49c1
+vendor/lib64/libsdedrm.so|cb159b4ea1b98cf192e7ffb582d135b7f229579b
+
 # Dolby music
 system/lib/libdolbyottcontrol.so
 system/lib/libdovi_omx.so
@@ -1543,10 +1547,6 @@ vendor/lib64/c2.dolby.hevc.sec.dec.so
 vendor/lib64/c2.dolby.store.so
 vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libdolbyvision.so
-
-# Display (SDM) - from Pong qssi-user 14 UP1A.231005.007 2310072102 release-keys
-vendor/lib/libsdedrm.so|932f321d4168e4fb91b449899ff1544710bf49c1
-vendor/lib64/libsdedrm.so|cb159b4ea1b98cf192e7ffb582d135b7f229579b
 
 # DPM
 system_ext/bin/dpmd
@@ -2148,6 +2148,12 @@ vendor/etc/perf/thermal-boost.conf
 vendor/etc/perf/thermalbreakboostconfig.xml
 
 # Perf (system) - from LA.QSSI.14.0.r1
+system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
+system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
+system/framework/QPerformance.jar|3d7ca2740a8f33e174a15405b335b5757a762a09
+system/framework/QXPerformance.jar|59974549e5444f9b19561fd4307a57938ab696ed
+system/framework/UxPerformance.jar|960c556e58a7e4e04303175354aa1058d14b8c8b
+system/lib64/vendor.qti.hardware.perf2-V1-ndk.so|d85286acecee8e2081ac066dc767421ffe648d29
 system_ext/bin/perfservice|ee3aa094acc3a27b10a52a8c985edd8535d235a2
 system_ext/bin/qspmsvc|aa040e405067e842fdd3901b395fba0a996641ab
 system_ext/etc/init/perfservice.rc|7d4732437d2204e06ea09db85f169fef693086e8
@@ -2158,11 +2164,11 @@ system_ext/lib/libbeluga.so|01ec4857df3a32bdd6fbe53e27bfa6687b116f3f
 system_ext/lib/libcomposerextn.qti.so|0d74805989a8c56c6e19089495665c4980daa5ce
 system_ext/lib/libdolphin.so|6ea16ad6ba1629fcce90bf7b9cb87842bfeb8e5e
 system_ext/lib/liblayerext.qti.so|18273bc06bc577cf417b5170a218d8945cde1f6f
-system_ext/lib/libpenguin_impl.so|0f5c72d45638f2daee751e89e3055101ab38145b
 system_ext/lib/libpenguin.so|3096a420a5aefc67fcbf33e83653b82205e59df8
+system_ext/lib/libpenguin_impl.so|0f5c72d45638f2daee751e89e3055101ab38145b
 system_ext/lib/libqape.qti.so|0ec0776b2b3322a9e4175b5e953a23b551f0bbf4
-system_ext/lib/libqspmsvc.so|c8db899e7fe92f0a73ad5a7c39e92a329b2739ce
 system_ext/lib/libqspm-mem-utils.so|8d74438d98331ffc8f63a16015621f6ac8cd0c60
+system_ext/lib/libqspmsvc.so|c8db899e7fe92f0a73ad5a7c39e92a329b2739ce
 system_ext/lib/libqti-at.so|c74ff13157d599131f140f1fd27aa50524cc03fa
 system_ext/lib/libqti-iopd-client_system.so|50f462abcc01fd78f6a566068daf844880c0469a
 system_ext/lib/libqti-perfd-client_system.so|503f0291f2f8a99bba7e628a5c3dbc666c8c6ff7
@@ -2174,14 +2180,14 @@ system_ext/lib/vendor.qti.hardware.perf@2.0.so|09bf35883ba09cf42aec9a6bf507e3fee
 system_ext/lib/vendor.qti.hardware.perf@2.1.so|bfcf8d50d22f41352845978c3f9bd9698e5f3c5b
 system_ext/lib/vendor.qti.hardware.perf@2.2.so|ff07d3f756b9b8c2cb0c98051c3293c8f06fd2e4
 system_ext/lib/vendor.qti.hardware.perf@2.3.so|1f09dad6e15c220f8d5b40292496f0302f8c1d89
-system_ext/lib/vendor.qti.qspmhal@1.0.so|73562866d11a93cfef25d6c3bc3abcf35f592784
 system_ext/lib/vendor.qti.qspmhal-V1-ndk.so|eb7aa6563eb9d0d28f76a02a2cc0875502dc221b
+system_ext/lib/vendor.qti.qspmhal@1.0.so|73562866d11a93cfef25d6c3bc3abcf35f592784
 system_ext/lib64/libbeluga.so|6b3b5210d5aba946350afa3b5dd7d0ac9de20bf4
 system_ext/lib64/libcomposerextn.qti.so|1d26480a2b8598ae35ad56fc9542cff1b58533ce
 system_ext/lib64/libdolphin.so|59861e3e56af545bbadf611b2d83c7bec81c2bff
 system_ext/lib64/liblayerext.qti.so|39e838ed46316558ef23a0a5c9a9f43fabccf7b8
-system_ext/lib64/libpenguin_impl.so|813a83bd80935e8ce4e2cda33a73ccb728dff78b
 system_ext/lib64/libpenguin.so|7c6f7b27444242ad30300c2f36fcd936f3d8d68b
+system_ext/lib64/libpenguin_impl.so|813a83bd80935e8ce4e2cda33a73ccb728dff78b
 system_ext/lib64/libqape.qti.so|1e930e83d97a979d3a820e67d4d6255f57ed2f01
 system_ext/lib64/libqspm-mem-utils.so|07e9d8566f7f8264f7957fab01a0a0a43dce19ac
 system_ext/lib64/libqspmsvc.so|11fb02a4e72b1957f32ad6311bb5fb7eb0e76c36
@@ -2196,14 +2202,8 @@ system_ext/lib64/vendor.qti.hardware.perf@2.0.so|5400a02d34d243078e3029cf4807643
 system_ext/lib64/vendor.qti.hardware.perf@2.1.so|c3591d5d299c05aff95eb67b210b9bda3d111357
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so|1d1b56ada415c5a7fe8b9d834551326555458b5a
 system_ext/lib64/vendor.qti.hardware.perf@2.3.so|e2226cc181265426a779b8f030bf9c964beb54dc
-system_ext/lib64/vendor.qti.qspmhal@1.0.so|d6a85a1a67b26ef6147f14e1a1a8100d21eeae18
 system_ext/lib64/vendor.qti.qspmhal-V1-ndk.so|b59800aaae7bcae40ee0911516397568d205bc5f
-system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
-system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
-system/lib64/vendor.qti.hardware.perf2-V1-ndk.so|d85286acecee8e2081ac066dc767421ffe648d29
-system/framework/QXPerformance.jar|59974549e5444f9b19561fd4307a57938ab696ed
-system/framework/QPerformance.jar|3d7ca2740a8f33e174a15405b335b5757a762a09
-system/framework/UxPerformance.jar|960c556e58a7e4e04303175354aa1058d14b8c8b
+system_ext/lib64/vendor.qti.qspmhal@1.0.so|d6a85a1a67b26ef6147f14e1a1a8100d21eeae18
 
 # Perf (vendor) - from LA.QSSI.14.0.r1
 vendor/app/pasrservice/pasrservice.apk|7f0befe51adf2470aef394c3828283ddbc9bd58b
@@ -2420,6 +2420,14 @@ vendor/lib64/libsoc_helper_jni.so
 # QTI service tracker
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
+# QTI VNDK Framework Detect
+vendor/lib/libqti_vndfwk_detect_vendor.so
+vendor/lib/libvndfwk_detect_jni.qti.so
+vendor/lib/libvndfwk_detect_jni.qti_vendor.so
+vendor/lib64/libqti_vndfwk_detect_vendor.so
+vendor/lib64/libvndfwk_detect_jni.qti.so
+vendor/lib64/libvndfwk_detect_jni.qti_vendor.so
+
 # QVR
 vendor/bin/hw/qvrservice
 vendor/bin/qvrdatalogger
@@ -2476,10 +2484,6 @@ vendor/lib64/libtracker_6dof_impl.so
 # QXR
 vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml
 vendor/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so
-
-# RIL - from V14.0.19.0.TMRCNXM
-system_ext/app/QtiTelephony/QtiTelephony.apk|e39418c08672181741835c03bea3009ead2e76d1
-system_ext/priv-app/Ims/Ims.apk|78b3c10d7071ff0afd9a86910222d1940f05f7a8
 
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
@@ -2845,6 +2849,10 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
+# RIL - from V14.0.19.0.TMRCNXM
+system_ext/app/QtiTelephony/QtiTelephony.apk|e39418c08672181741835c03bea3009ead2e76d1
+system_ext/priv-app/Ims/Ims.apk|78b3c10d7071ff0afd9a86910222d1940f05f7a8
+
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
@@ -2978,13 +2986,6 @@ vendor/etc/seccomp_policy/sxr@2.0.policy
 vendor/lib64/libsxrcryptoimpl.so
 vendor/lib64/libsxrservice.so
 
-# Thermal (limits-hal)
-vendor/bin/hw/vendor.qti.hardware.limits@1.1-service
-vendor/etc/init/vendor.qti.hardware.limits-service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
-vendor/lib64/vendor.qti.hardware.limits@1.1.so
-
 # Thermal
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
@@ -3024,6 +3025,13 @@ vendor/bin/mi_thermald
 vendor/bin/thermal-engine-v2
 vendor/etc/init/hw/init.mi_thermald.rc
 vendor/etc/init/init_thermal-engine-v2.rc
+
+# Thermal (limits-hal)
+vendor/bin/hw/vendor.qti.hardware.limits@1.1-service
+vendor/etc/init/vendor.qti.hardware.limits-service.rc
+vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
+vendor/lib64/vendor.qti.hardware.limits@1.0.so
+vendor/lib64/vendor.qti.hardware.limits@1.1.so
 
 # Thermal Service Client
 system_ext/lib/libthermalclient.qti.so
@@ -3338,14 +3346,6 @@ vendor/firmware/vpu20_4v.b18
 vendor/firmware/vpu20_4v.b19
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
-
-# QTI VNDK Framework Detect
-vendor/lib/libvndfwk_detect_jni.qti.so
-vendor/lib/libvndfwk_detect_jni.qti_vendor.so
-vendor/lib/libqti_vndfwk_detect_vendor.so
-vendor/lib64/libqti_vndfwk_detect_vendor.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
-vendor/lib64/libvndfwk_detect_jni.qti_vendor.so
 
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
