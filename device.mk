@@ -474,10 +474,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor
 
-PRODUCT_PACKAGES += \
-    Ims \
-    QtiTelephony
-
 # Rootdir
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
