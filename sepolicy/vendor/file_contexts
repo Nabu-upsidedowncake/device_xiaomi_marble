@@ -78,6 +78,9 @@
 # NV MAC
 /vendor/bin/nv_mac                                                        u:object_r:vendor_wcnss_service_exec:s0
 
+# Power
+/vendor/bin/hw/android\.hardware\.power-service-qti                       u:object_r:hal_power_default_exec:s0
+
 # QRTR
 /(vendor|system/vendor)/bin/qrtr-lookup                                   u:object_r:vendor_qrtr_exec:s0
 
