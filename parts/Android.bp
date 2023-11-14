@@ -22,4 +22,8 @@ android_app {
         "SettingsLib",
         "vendor.xiaomi.hardware.displayfeature-V1.0-java",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
