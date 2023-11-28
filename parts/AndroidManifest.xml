@@ -90,12 +90,12 @@
             android:value="true" />
         </service>
 
-        <!--<provider
+        <provider
             android:name=".SummaryProvider"
             android:authorities="org.lineageos.settings.device.summary">
-        </provider-->
+        </provider>
 
-        <!--activity
+        <activity
             android:name=".dolby.DolbyActivity"
             android:exported="true"
             android:label="@string/dolby_title"
@@ -124,7 +124,7 @@
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
-        </service-->
+        </service>
 
         <service
             android:name=".doze.DozeService"
