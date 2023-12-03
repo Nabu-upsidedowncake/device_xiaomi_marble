@@ -12,9 +12,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
-    <string name="config_netflixSpoofModel" translatable="false">23049PCD8G</string>
-
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 </resources>
