@@ -1743,6 +1743,7 @@ vendor/lib64/libqcodec2_mockqc2filter.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libstagefrighthw.so
 vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libvideotxr.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
@@ -1832,9 +1833,12 @@ vendor/lib64/libQnnHtpAltPrepV69Stub.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
+vendor/lib64/libOmxCore.so
 vendor/lib64/libdsd2pcm.so
 
 # Perf (system) - from LA.QSSI.14.0.r1
+system_ext/app/PerformanceMode/PerformanceMode.apk|353349549bf1c86feb12972d152750eb65d07e6d
+system_ext/app/PowerSaveMode/PowerSaveMode.apk|acf99f8780f4aca76f3d026b80f67bcfe0a3d0c7
 system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
 system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
 system/framework/QPerformance.jar|3d7ca2740a8f33e174a15405b335b5757a762a09
