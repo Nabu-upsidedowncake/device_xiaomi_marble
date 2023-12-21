@@ -1619,8 +1619,7 @@ vendor/firmware/a730_zap.mbn
 vendor/firmware/a730_zap.mdt
 vendor/firmware/gmu_gen70000.bin
 
-# Graphics (Adreno)
-vendor/app/com.qualcomm.qti.gpudrivers.taro.api32/com.qualcomm.qti.gpudrivers.taro.api32.apk;PRESIGNED
+# Graphics
 vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
@@ -1632,6 +1631,7 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/hw/vulkan.adreno.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libadreno_app_profiles.so
@@ -1643,9 +1643,6 @@ vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
-
-# Graphics (Vulkan)
-vendor/lib64/hw/vulkan.adreno.so
 
 # Hotword Enrollment - from MIUI GL
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk|a25f5c76c8653a347b46b368e5d955b8818bb4db
